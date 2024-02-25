@@ -1,0 +1,23 @@
+*{
+  margin: 0px;
+  padding:0 ;
+  box-sizing: border-box;
+  
+ 
+}
+
+.link{
+ text-decoration: none;
+  margin :20px 30px;
+  justify-content: center;
+  justify-content: space-around;
+  
+}
+.form-div{
+  text-align: center;
+  padding: 100px;
+}
+.element{
+  padding: 10px;
+  padding-left: 4.5%;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="para"></p>
+    <script>
+        let p=document.getElementById("para");
+        
+        let count=10;
+           let c=setInterval(function(){
+                count-=1;
+                if(count>=1){
+                    p.innerHTML=count;
+                    p.style.width="125px";
+                    p.style.height="40px";
+                    p.style.background="green";
+                    p.style.color="yellow";
+                    p.style.textalign="centre";
+                    p.style.justifycontent="centre";
+                    p.style.borderRadius="21px";
+                    p.style.margin="auto";
+                    p.style.paddingTop="20px";
+                    p.style.paddingLeft="20px";
+                    p.style.fontSize="18px";
+                }else{
+                clearInterval();
+            p.innerHTML="Merry Christmas" 
+        }
+        
+            console.log(count);
+            },1000)
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}  
+
+.Album {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto ;
+    column-gap: 25px;
+    row-gap: 20px;
+    justify-content: space-around;
+    background-color: white;
+    padding:30px;
+    width: fit-content;
+      
+}
+
+
+
+.futter{
+    display: flex;
+    justify-content: space-around;
+    color:black;
+    background-color: white;
+}
+.futter p{
+    color: black;
+    font-size:20px;
+    font-weight: bolder;
+}
+.online{
+    margin-top:50px;
+}
+.customer{
+    margin-top:50px;
+}
+.useful{
+    margin-top:50px;
+}
+.online h6{
+    cursor: pointer;
+    margin: 20px;
+}
+.online h6:hover{
+    color: rgb(112, 111, 111);
+}
+.customer h6{
+    cursor: pointer;
+    margin: 20px;
+}
+.customer h6:hover{
+    color: rgb(112, 111, 111);
+}
+.useful h6{
+    cursor: pointer;
+    margin: 20px;
+}
+.useful h6:hover{
+    color: rgb(112, 111, 111);
+}
+.social{
+    margin-top: 50px;
+    padding: 20px;
+    cursor: pointer;
+}
+.social:hover{
+    color: rgb(108, 107, 107);
+}
+.card:hover{
+    box-shadow:9px 6px 15px rgb(195, 191, 191);
+    transform: scale(1.0);
+    transition: 2s;
+    cursor: pointer;
+
+}
+.card-body {
+   text-align: center;
+   font-family: chakra petch;
+    padding: 0%;
+    
+    }
+.men :hover{
+    color: lightslategray;
+}
+.women :hover{
+    color: lightslategray;
+}
+.kids :hover{
+    color: lightslategray;
+}
+.living :hover{
+    color: lightslategray;
+}
+.beauty :hover{
+    color: lightslategray;
+}
+.footwear :hover{
+    color: lightslategray;
+}
+.jewellery :hover{
+    color: lightslategray;
+}
+.accessories :hover{
+    color: lightslategray;
+}
+.trolleys :hover{
+    color: lightslategray;
+}
+.Watches :hover{
+    color: lightslategray;
+}
+.Belts :hover{
+    color: lightslategray;
+}
+.Eye-wear :hover{
+    color: lightslategray;
+}
+
